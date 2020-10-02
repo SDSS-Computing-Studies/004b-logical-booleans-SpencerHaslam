@@ -1,4 +1,3 @@
-
 #! python3
 """
 The Earth maintains an orbit where it's closest distance to  
@@ -15,3 +14,9 @@ Outputs:
 That is within normal Earth orbit.
 That is not within normal Earth orbit.
 """
+n = input("Enter a number")
+N = float(n)
+if N >= 0.9759 and N <= 1.016:
+    print("That is within normal Earth orbit.")
+else:
+    print("That is not within normal Earth orbit.")
