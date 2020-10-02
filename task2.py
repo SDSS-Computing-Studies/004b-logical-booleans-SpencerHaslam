@@ -26,11 +26,9 @@ number = int(input("Enter a Number"))
 root = math.sqrt(number)
 qroot = (number **(1/3))
 qroot = round(qroot, 10)
-print(qroot)
-print(root**2, qroot**3)
 if root ** 2 == number and qroot ** 3 == number :
-    print(number, " is both a perfect square and a perfect cube.")
+    print(number, "is both a perfect square and a perfect cube.")
 elif root ** 2 == number:
-    print(number,  "is only a perfect square.")
+    print(number, "is only a perfect square.")
 else:
-    print(number, " is only a perfect cube.")
+    print(number, "is only a perfect cube.")
