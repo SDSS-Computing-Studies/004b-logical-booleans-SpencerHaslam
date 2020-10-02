@@ -30,7 +30,7 @@ minval = min(number, number2)
 total = float(maxval / minval)
 Itotal = int(total)
 if total == Itotal:
-    print(number, "is a factor of", number2)
+    print(minval, "is a factor of", maxval)
 
 else:
-    print(number, "is not a factor of", number2)
+    print(minval, "is not a factor of", maxval)
