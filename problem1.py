@@ -27,8 +27,8 @@ Inumberdiv8 = int(numberdiv8)
 
 if numberdiv6 == Inumberdiv6:
     if numberdiv8 == Inumberdiv8:
-        print(number, " is not frue")
+        print(number, "is not frue")
     else:
-        print(number, " is frue")
+        print(number, "is frue")
 else:
-    print(number, " is not frue")
+    print(number, "is not frue")
