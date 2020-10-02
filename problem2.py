@@ -23,3 +23,14 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+number = float(input("Enter a number"))
+number2 = float(input("Enter another number"))
+maxval = max(number, number2)
+minval = min(number, number2)
+total = float(maxval / minval)
+Itotal = int(total)
+if total == Itotal:
+    print(number, "is a factor of", number2)
+
+else:
+    print(number, "is not a factor of", number2)
