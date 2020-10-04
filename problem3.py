@@ -33,12 +33,12 @@ sqmid = midval ** 2
 sqmax = maxval ** 2
 firsthalf = sqmin + sqmid
 if firsthalf == sqmax:
-    snumber1 = str(number1)
-    snumber2 = str(number2)
-    snumber3 = str(number3)
+    snumber1=  str(minval)
+    snumber2 = str(midval)
+    snumber3 = str(maxval)
     print(snumber1 + "," + snumber2 + "," + snumber3 + ", form a Pythagorean Triple")
 else:
-    snumber1 = str(number1)
-    snumber2 = str(number2)
-    snumber3 = str(number3)
+    snumber1 = str(minval)
+    snumber2 = str(midval)
+    snumber3 = str(maxval)
     print(snumber1 + "," + snumber2 + "," + snumber3 + " do not form a Pythagorean Triple")
